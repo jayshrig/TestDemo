@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    body{
+    background-color:black;
+    
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 style="color:white;">BookMyCab</h1>      
+   <p>
+   We give customer satisfaction the utmost priority and so give ample options to book cab by entering details like their journey data and time,
+    origin, pick-up point, destination and the drop-off point they need to reach. 
+   
+   </p>
+     
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="cabadd.html">Add cabs</a></li>
+        <li><a href="Bookings.html">View Bokings</a></li>
+         <li><a href="Admin.html">Logout</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="background-color:black; color:white; font-size:24px;">    
+  <div class="row">
+  
+   <h2><center>Welcome Admin</center></h2>
+  </div>
+</div><br>
+
+</body>
+
+</html>
